@@ -55,3 +55,41 @@
     display: block;
     }
     
+.abas-texto{
+    background-color: var(--texto-fundo);
+    padding: 40px;
+}
+
+.aba-conteudo-titulo-principal{
+    font-size: 28px;
+    text-align: center;
+}
+
+.aba-conteudo-titulo-secundario{
+    text-align: center;
+    color: var(--verde);
+    text-transform: uppercase;
+}
+
+@media screen  and (min-width:768px) {
+
+    .botoes{
+
+        display: flex;
+
+    }
+
+    .botao:first-child{
+
+        border: 40px000;
+    }
+    
+
+    .botao:last-child{
+
+        border-radius: 040px00;
+    }
+
+    }
+
+
